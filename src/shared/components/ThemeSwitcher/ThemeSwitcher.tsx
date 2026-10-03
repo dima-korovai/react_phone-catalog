@@ -7,9 +7,9 @@ export const ThemeSwitcher = () => {
   return (
     <button className={styles.themeSwitcherButton} onClick={toggleTheme}>
       {theme === 'light' ? (
-        <img src="/icons/moon.svg" alt="moon" />
+        <img src="/react_phone-catalog/icons/moon.svg" alt="moon" />
       ) : (
-        <img src="/icons/sun.svg" alt="sun" />
+        <img src="/react_phone-catalog/icons/sun.svg" alt="sun" />
       )}
     </button>
   );

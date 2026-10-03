@@ -129,7 +129,7 @@ export const ProductsCatalog: React.FC<Props> = ({
                 </option>
               </select>
 
-              <img src="/icons/down.svg" alt="options" />
+              <img src="/react_phone-catalog/icons/down.svg" alt="options" />
             </div>
           </div>
 
@@ -155,7 +155,7 @@ export const ProductsCatalog: React.FC<Props> = ({
                 <option value={0}> {t('products.itemsOnPageAll')}</option>
               </select>
 
-              <img src="/icons/down.svg" alt="options" />
+              <img src="/react_phone-catalog/icons/down.svg" alt="options" />
             </div>
           </div>
         </div>

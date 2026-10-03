@@ -15,11 +15,14 @@ export const FavoriteButton: React.FC<Props> = ({
     <button className={`${styles.button} ${className || ''}`} onClick={onClick}>
       {isInFavorites ? (
         <img
-          src="/icons/Favourites Filled (Heart Like).svg"
+          src="/react_phone-catalog/icons/Favourites Filled (Heart Like).svg"
           alt="Remove from favorites"
         />
       ) : (
-        <img src="/icons/heard.svg" alt="Add to favorites" />
+        <img
+          src="/react_phone-catalog/icons/heard.svg"
+          alt="Add to favorites"
+        />
       )}
     </button>
   );
