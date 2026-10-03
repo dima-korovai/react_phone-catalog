@@ -7,14 +7,11 @@ export const Logo = () => {
 
   return (
     <Link className={styles.logo} to="/">
-      <img
-        src={
-          theme === 'light'
-            ? '/react_phone-catalog/icons/logo.svg'
-            : '/react_phone-catalog/icons/logo white.svg'
-        }
-        alt="logo"
-      />
+      {theme === 'light' ? (
+        <img src="/react_phone-catalog/icons/logo.svg" />
+      ) : (
+        <img src="/react_phone-catalog/icons/sun.svg" />
+      )}
     </Link>
   );
 };
