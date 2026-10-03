@@ -8,7 +8,11 @@ export const Logo = () => {
   return (
     <Link className={styles.logo} to="/">
       <img
-        src={theme === 'light' ? 'icons/logo.svg' : 'icons/logo white.svg'}
+        src={
+          theme === 'light'
+            ? '/react_phone-catalogicons/logo.svg'
+            : '/react_phone-catalog/icons/logo white.svg'
+        }
         alt="logo"
       />
     </Link>
