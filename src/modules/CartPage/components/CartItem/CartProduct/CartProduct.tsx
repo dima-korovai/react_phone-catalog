@@ -65,7 +65,10 @@ export const CartProduct: React.FC<Props> = ({ product }) => {
               type="button"
               onClick={() => increaseQuantity(product.itemId)}
             >
-              <img src={`${import.meta.env.BASE_URL}icons/Plus.svg`} alt="plus" />
+              <img
+                src={`${import.meta.env.BASE_URL}icons/Plus.svg`}
+                alt="plus"
+              />
             </button>
           </div>
           <div className={styles.priceBlock}>
