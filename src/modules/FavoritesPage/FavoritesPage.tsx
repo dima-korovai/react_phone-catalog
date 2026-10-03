@@ -1,10 +1,11 @@
 // import { GoBack } from '@/shared/components/GoBack/GoBack';
-import { Breadcrumbs } from '@/shared/components/Breadcrumbs/Breadcrumbs';
+
 import container from '@/shared/styles/Container.module.scss';
 import styles from './FavoritesPage.module.scss';
 import { useFavorites } from '@/shared/context/FavoriteContext/useFavorites';
 import { useTranslation } from 'react-i18next';
 import { FavoritesItems } from './components/FavoritesItems/FavoritesItems';
+import { Breadcrumbs } from '@/shared/components/Breadcrumbs';
 
 export const FavoritesPage = () => {
   const { favorites } = useFavorites();
