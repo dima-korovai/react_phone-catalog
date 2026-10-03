@@ -10,8 +10,8 @@ export const Logo = () => {
       <img
         src={
           theme === 'light'
-            ? `${import.meta.env.BASE_URL}icons/logo.svg`
-            : `${import.meta.env.BASE_URL}icons/logo white.svg`
+            ? '/react_phone-catalog/icons/logo.svg'
+            : '/react_phone-catalog/icons/logo white.svg'
         }
         alt="logo"
       />
