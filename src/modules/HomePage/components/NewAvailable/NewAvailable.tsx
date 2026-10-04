@@ -16,7 +16,7 @@ export const NewAvailable = ({ products }: { products: Product[] }) => {
       <div className={container.container__newAvailable}>
         <div className={style.newAvailable__content}>
           <div className={style.prev}>
-            <img src="/react_phone-catalog/icons/left.svg" alt="Previous" />
+            <img src="icons/left.svg" alt="Previous" />
           </div>
           <Swiper
             modules={[Pagination, Autoplay, Navigation]}
@@ -39,7 +39,7 @@ export const NewAvailable = ({ products }: { products: Product[] }) => {
             ))}
           </Swiper>
           <div className={style.next}>
-            <img src="/react_phone-catalog/icons/right.svg" alt="Next" />
+            <img src="icons/right.svg" alt="Next" />
           </div>
         </div>
         <div className={style.pagination}></div>

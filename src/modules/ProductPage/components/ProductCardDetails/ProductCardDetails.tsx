@@ -114,7 +114,7 @@ export const ProductCardDetails: React.FC<Props> = ({
                   <SwiperSlide key={image}>
                     <img
                       className={styles.image}
-                      src={`/react_phone-catalog/${image}`}
+                      src={`${image}`}
                       alt={title}
                     />
                   </SwiperSlide>
@@ -134,7 +134,7 @@ export const ProductCardDetails: React.FC<Props> = ({
                   >
                     <img
                       className={styles.img}
-                      src={`/react_phone-catalog/${image}`}
+                      src={`${image}`}
                       alt="preview"
                     />
                   </div>

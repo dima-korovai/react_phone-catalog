@@ -34,7 +34,7 @@
 
 html,
 body {
-	overflow-x: hidden;
+	overflow-x: clip;
 	width: 100%;
 	max-width: 100%;
 }
@@ -70,7 +70,3 @@ input:-webkit-autofill:active {
 
 	-webkit-text-fill-color: rgb(0, 0, 0);
 }
-
-// * {
-// 	outline: 1px solid red;
-// }

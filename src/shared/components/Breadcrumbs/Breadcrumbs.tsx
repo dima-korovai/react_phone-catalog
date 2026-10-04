@@ -25,15 +25,11 @@ export const Breadcrumbs: React.FC<Props> = ({
       <div className={styles.top}>
         <Link className={styles.home} to="/">
           <img
-            src={
-              theme === 'light'
-                ? '/react_phone-catalog/icons/Home.svg'
-                : '/react_phone-catalog/icons/home white.svg'
-            }
+            src={theme === 'light' ? 'icons/home.svg' : 'icons/home-white.svg'}
             alt="Home"
           />
         </Link>
-        <img src="/react_phone-catalog/icons/right.svg" alt="" />
+        <img src="icons/right.svg" alt="" />
         {productName ? (
           <Link to={`/${category}`}>
             <span className={styles.link}>{t(title)}</span>
@@ -43,7 +39,7 @@ export const Breadcrumbs: React.FC<Props> = ({
         )}
         {productName && (
           <>
-            <img src="/react_phone-catalog/icons/right.svg" alt="" />
+            <img src="icons/right.svg" alt="" />
             <span className={`${styles.page} ${styles.productName}`}>
               {productName}
             </span>

@@ -17,11 +17,7 @@ export const ProductCard: React.FC<Props> = ({
       <div className={style.card__content}>
         <div className={style.picture}>
           <Link to={`/product/${itemId}`}>
-            <img
-              className={style.image}
-              src={`/react_phone-catalog/${image}`}
-              alt={itemId}
-            />
+            <img className={style.image} src={`${image}`} alt={itemId} />
           </Link>
         </div>
         <div className={style.title}>

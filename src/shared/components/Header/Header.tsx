@@ -140,8 +140,8 @@ export const Header = () => {
                   <img
                     src={
                       theme === 'light'
-                        ? '/react_phone-catalog/icons/Menu.svg'
-                        : '/react_phone-catalog/icons/menu white.svg'
+                        ? 'icons/menu.svg'
+                        : 'icons/menu-white.svg'
                     }
                     alt="burger"
                   />
@@ -149,8 +149,8 @@ export const Header = () => {
                   <img
                     src={
                       theme === 'light'
-                        ? '/react_phone-catalog/icons/Close.svg'
-                        : '/react_phone-catalog/icons/close white.svg'
+                        ? 'icons/Close.svg'
+                        : 'icons/close-white.svg'
                     }
                     alt="close"
                   />

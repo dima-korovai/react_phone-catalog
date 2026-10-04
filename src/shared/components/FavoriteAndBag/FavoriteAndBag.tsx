@@ -21,8 +21,8 @@ export const FavoriteAndBag: React.FC<Props> = ({ onClose }) => {
             <img
               src={
                 theme === 'light'
-                  ? '/react_phone-catalog/icons/Favourites (Heart Like).svg'
-                  : '/react_phone-catalog/icons/heart white.svg'
+                  ? 'icons/favourites.svg'
+                  : 'icons/favourites-white.svg'
               }
               alt="favorites"
             />
@@ -39,11 +39,7 @@ export const FavoriteAndBag: React.FC<Props> = ({ onClose }) => {
           <div className={styles.imgWrapper}>
             <img
               className={styles.bag}
-              src={
-                theme === 'light'
-                  ? '/react_phone-catalog/icons/Shopping bag (Cart).svg'
-                  : '/react_phone-catalog/icons/bag white.svg'
-              }
+              src={theme === 'light' ? 'icons/bag.svg' : 'icons/bag-white.svg'}
               alt="bag"
             />
 

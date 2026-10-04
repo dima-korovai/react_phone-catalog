@@ -42,7 +42,7 @@ export const Footer = () => {
           <div className={styles.buttonWarapper}>
             <span className={styles.buttonText}>{t('footer.toTop')}</span>
             <Button
-              icon="/react_phone-catalog/icons/up.svg"
+              icon="icons/up.svg"
               alt="toTop"
               onClick={handleScrollToTop}
               filtered

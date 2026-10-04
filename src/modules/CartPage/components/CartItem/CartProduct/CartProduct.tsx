@@ -24,13 +24,13 @@ export const CartProduct: React.FC<Props> = ({ product }) => {
         >
           <img
             className={styles.cross}
-            src={'/react_phone-catalog/icons/Close.svg'}
+            src={'icons/Close.svg'}
             alt="remove item"
           />
         </button>
         <div className={styles.imgBlock}>
           <img
-            src={'/react_phone-catalog/' + product.image}
+            src={product.image}
             className={styles.image}
             alt="product image"
           />
@@ -50,7 +50,7 @@ export const CartProduct: React.FC<Props> = ({ product }) => {
               type="button"
               onClick={() => decreaseQuantity(product.itemId)}
             >
-              <img src={'/react_phone-catalog/icons/Minus.svg'} alt="minus" />
+              <img src={'icons/Minus.svg'} alt="minus" />
             </button>
 
             <div className={styles.quantityNumberBlock}>
@@ -62,7 +62,7 @@ export const CartProduct: React.FC<Props> = ({ product }) => {
               type="button"
               onClick={() => increaseQuantity(product.itemId)}
             >
-              <img src={'/react_phone-catalog/icons/Plus.svg'} alt="plus" />
+              <img src={'icons/Plus.svg'} alt="plus" />
             </button>
           </div>
           <div className={styles.priceBlock}>

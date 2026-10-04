@@ -33,7 +33,7 @@ export const ProductCard = ({ product }: { product: Product }) => {
               {t('home.newAvailable.title')}
               <img
                 className={style.order__nice}
-                src="/react_phone-catalog/icons/nice.svg"
+                src="icons/nice.svg"
                 alt="nice"
               />
             </h4>
@@ -56,11 +56,7 @@ export const ProductCard = ({ product }: { product: Product }) => {
         <p className={style.model}>{capacity}</p>
         <div className={style.imageBlock}>
           <Link to={`/product/${itemId}`}>
-            <img
-              className={style.img}
-              src={`/react_phone-catalog/${image}`}
-              alt={itemId}
-            />
+            <img className={style.img} src={`${image}`} alt={itemId} />
           </Link>
         </div>
       </div>

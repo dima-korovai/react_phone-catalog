@@ -20,7 +20,7 @@ export const Pagination: React.FC<Props> = ({
     <ul className={styles.pagination}>
       <li className={styles.item}>
         <Button
-          icon="/icons/left.svg"
+          icon="icons/left.svg"
           alt="prev"
           style={{ marginRight: '5px' }}
           disabled={currentPage === 1}
@@ -45,7 +45,7 @@ export const Pagination: React.FC<Props> = ({
 
       <li className={styles.item}>
         <Button
-          icon="/icons/right.svg"
+          icon="icons/right.svg"
           alt="next"
           style={{ marginLeft: '5px' }}
           disabled={currentPage === totalPages}

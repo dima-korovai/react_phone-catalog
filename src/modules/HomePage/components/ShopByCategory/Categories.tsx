@@ -15,19 +15,19 @@ export const Categories = () => {
             <ProductsBlock
               bgColor="#6D6474"
               title="mobilePhones"
-              image="/react_phone-catalog/img/category-phones.webp"
+              image="img/category-phones.webp"
               category="phones"
             />
             <ProductsBlock
               bgColor="#89939A"
               title="tablets"
-              image="/react_phone-catalog/img/category-tablets.webp"
+              image="img/category-tablets.webp"
               category="tablets"
             />
             <ProductsBlock
               bgColor="#a71747"
               title="accessories"
-              image="/react_phone-catalog/img/category-accessories.webp"
+              image="img/category-accessories.webp"
               category="accessories"
             />
           </div>

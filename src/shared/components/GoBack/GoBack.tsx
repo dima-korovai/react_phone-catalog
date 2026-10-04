@@ -15,11 +15,7 @@ export const GoBack: React.FC<Props> = ({ category }) => {
 
   return (
     <Link to={backLink} className={styles.linkBack}>
-      <img
-        className={styles.img}
-        src="/react_phone-catalog/icons/left.svg"
-        alt="back"
-      />
+      <img className={styles.img} src="icons/left.svg" alt="back" />
       <span className={styles.linkBackText}>{t('goBack')}</span>
     </Link>
   );
