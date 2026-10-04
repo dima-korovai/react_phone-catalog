@@ -36,11 +36,7 @@ export const ProductsSlider: React.FC<Props> = ({
 
             <div className={style.buttonsWrapper}>
               <Button ref={prevRef} icon="icons/left.svg" alt="prev" />
-              <Button
-                ref={nextRef}
-                icon="icons/right.svg"
-                alt="next"
-              />
+              <Button ref={nextRef} icon="icons/right.svg" alt="next" />
             </div>
           </div>
 

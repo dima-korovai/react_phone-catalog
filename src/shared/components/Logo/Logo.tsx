@@ -8,9 +8,9 @@ export const Logo = () => {
   return (
     <Link className={styles.logo} to="/">
       {theme === 'light' ? (
-        <img src="icons/logo.svg" />
+        <img src="./icons/logo.svg" />
       ) : (
-        <img src="icons/logo-white.svg" />
+        <img src="./icons/logo-white.svg" />
       )}
     </Link>
   );
